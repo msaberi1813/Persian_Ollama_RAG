@@ -44,13 +44,14 @@ It is built using **LangChain + Ollama + Chroma + Streamlit**, and includes Few-
 ```bash
 git clone https://github.com/yourusername/librechat-ai.git
 cd librechat-ai
+```
 
 2. **Create a virtual environment**
 ```
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
-
+```
 
 3. **Install dependencies**
 ```
@@ -78,14 +79,12 @@ Responses will combine Few-shot learning, chat memory, and RAG (if vector DB exi
 
 
 **Notes**
-
 Even without PDFs, the model works using Few-shot examples and chat memory.
 PDF ingestion is optional but recommended for richer context.
 Supports GPU acceleration if available for embeddings.
 
 **License**
-
-
 This project is released under the MIT License. Feel free to use, modify, and distribute.
+
 
 
