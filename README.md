@@ -56,6 +56,7 @@ venv\Scripts\activate     # Windows
 ```
 pip install -r requirements.txt
 Make sure you have Python 3.10+ and a working Ollama setup.
+```
 
 4. **Optional: Ingest PDFs**
 ```
@@ -63,6 +64,7 @@ from model import LibreChatModel
 model = LibreChatModel()
 num_chunks = model.ingest_pdfs("data")
 print(f"{num_chunks} chunks ingested.")
+```
 
 5. **Running the Streamlit UI**
 ```
@@ -85,4 +87,5 @@ Supports GPU acceleration if available for embeddings.
 
 
 This project is released under the MIT License. Feel free to use, modify, and distribute.
+
 
