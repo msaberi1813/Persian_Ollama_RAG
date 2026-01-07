@@ -79,12 +79,15 @@ Responses will combine Few-shot learning, chat memory, and RAG (if vector DB exi
 
 
 **Notes**
+
 Even without PDFs, the model works using Few-shot examples and chat memory.
 PDF ingestion is optional but recommended for richer context.
 Supports GPU acceleration if available for embeddings.
 
 **License**
+
 This project is released under the MIT License. Feel free to use, modify, and distribute.
+
 
 
 
