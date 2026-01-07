@@ -55,7 +55,6 @@ venv\Scripts\activate     # Windows
 3. **Install dependencies**
 ```
 pip install -r requirements.txt
-
 Make sure you have Python 3.10+ and a working Ollama setup.
 
 4. **Optional: Ingest PDFs**
@@ -68,6 +67,7 @@ print(f"{num_chunks} chunks ingested.")
 5. **Running the Streamlit UI**
 ```
 streamlit run ui.py
+```
 
 Open your browser at the provided local URL.
 Use the sidebar to start a new chat or select previous chats.
@@ -85,3 +85,4 @@ Supports GPU acceleration if available for embeddings.
 
 
 This project is released under the MIT License. Feel free to use, modify, and distribute.
+
